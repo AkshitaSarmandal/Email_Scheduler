@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+.timeslot div {
+  width: 45px;
+  border: 2px solid cyan;
+  border-radius: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.active {
+  background-color: deepskyblue;
   color: white;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+.search-input-container {
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 20px; /* Adjust the right distance as needed */
+  transform: translateY(-50%);
+}
+
+.addBtn {
+  background-color: darkslateblue !important;
+}
+
+table thead {
+  background-color: cyan !important;
+}
+
+table thead tr {
+  height: 65px;
+}
+
+table thead tr th {
+  padding-bottom: 20px !important;
+  padding-left: 20px !important;
+}
+
+table tbody tr {
+  height: 65px;
+  border-left: 1px solid cyan;
+  border-right: 1px solid cyan;
+}
+
+.modal-dialog {
+  margin: 6.75rem auto !important;
+  margin-left: 75rem !important;
+}
+
+svg {
+  cursor: pointer;
 }

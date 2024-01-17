@@ -1,0 +1,48 @@
+export const dummyData = [
+    {
+      id: '1',
+      title: 'Meeting 1',
+      description: 'Discuss project updates',
+      subject: 'Project Updates',
+      schedule: 'Daily at 10.00 AM',
+      time: '10:00 AM',
+      frequancy: 'Daily',
+    },
+    {
+      id: '2',
+      title: 'Webinar',
+      description: 'Webinar on React best practices',
+      subject: 'React Webinar',
+      schedule: 'Daily at 10.00 AM',
+      time: '10:00 AM',
+      frequancy: 'Daily',
+    },
+    {
+      id: '3',
+      title: 'Client Call',
+      description: 'Discuss client requirements',
+      subject: 'Client Meeting',
+      schedule: 'Daily at 10.00 AM',
+      time: '10:00 AM',
+      frequancy: 'Daily',
+    },
+    {
+      id: '4',
+      title: 'Team Standup',
+      description: 'Daily team standup meeting',
+      subject: 'Team Standup',
+      schedule: 'Daily at 10.00 AM',
+      time: '10:00 AM',
+      frequancy: 'Weekly',
+    },
+    {
+      id: '5',
+      title: 'Training Session',
+      description: 'Training session for new tools',
+      subject: 'Training',
+      schedule: 'Daily at 10.00 AM',
+      time: '10:00 AM',
+      frequancy: 'Daily',
+    },
+  ];
+  
